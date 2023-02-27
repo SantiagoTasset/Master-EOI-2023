@@ -23,7 +23,7 @@ public class TypeCasting {
 
         // Narrowing casting - Estrechamiento
 
-        numeroDouble = 897564.56e38; // d opcional
+        numeroDouble = 586465.55e38; // d opcional
         System.out.println("numeroDouble = " + numeroDouble);
 
         numeroFloat = (float) numeroDouble; // (float) transforma el numero
@@ -31,6 +31,13 @@ public class TypeCasting {
 
         numeroLong = (long) numeroFloat; // (long) tansforma el numero float a long
         System.out.println("numeroLong = " + numeroLong);
+
+       numeroInt = (int) numeroLong;
+        System.out.println("numeroInt= " + numeroInt);
+
+        numeroByte = (byte) numeroInt;
+        System.out.println("numeroByte = " + numeroInt);
+
 
     }
 
