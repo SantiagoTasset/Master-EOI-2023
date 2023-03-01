@@ -6,7 +6,7 @@ public class IntroduccionDatosPorConsolaError {
 
         String dato;
         Scanner entrada = new Scanner(System.in);
-        System.out.print("Introduce un numero entero: ");
+        System.out.print("Introduce \"un\" numero entero: "); // para escribir algo entre comillas utilizar \" \"
         dato = entrada.nextLine();
         int numero = 0;
 

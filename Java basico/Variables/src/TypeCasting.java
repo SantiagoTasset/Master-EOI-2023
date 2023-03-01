@@ -1,6 +1,14 @@
 public class TypeCasting {
-    // Widening casting -> ensanchamiento
+
+
+
     public static void main(String[] args) {
+
+        // Constantes
+        final float PI = 3.141516929F; // añadir final cambia un numero entero a una constante, no se puede modificar a lo largo del programa
+        System.out.println("PI = " + PI);
+
+        // Widening casting -> ensanchamiento
         byte numeroByte = 111; // ocupa 1 Byte
         System.out.println("numeroByte = " + numeroByte);
 
@@ -15,6 +23,7 @@ public class TypeCasting {
 
         float numeroFloat = numeroLong; // Pasar de 8 bytes entero a 4 bytes reales
         System.out.println("numeroFloat = " + numeroFloat);
+
 
         double numeroDouble = numeroFloat; // Pasar de 4 Bytes reales a 8 bytes reales
         System.out.println("numeroDouble = " + numeroDouble);
